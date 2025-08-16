@@ -9,9 +9,25 @@ The project aims to replicate and explore the PPO approach, closely following th
 The experiments demonstrate that the agent learns and generalizes well, yielding results that align with those reported in the initial studies.
 
 ## Training Results
-The results of the training are showcased in the videos below. These videos highlight the performance of the trained agents in two specific Procgen environments: **Coinrun** and **Fruitbot**.
+I evaluated the training method on two Procgen environments: Coinrun and Fruitbot.
+
+The agents successfully learn to complete levels with high accuracy. The plots below report the average sum of rewards per episode (red) and the average episode length (blue).
+
+<img width="1990" height="1050" alt="plots" src="https://github.com/user-attachments/assets/ca735b71-5b36-4fa6-aa54-1bc540da4c9c" />
+
+
+The videos below showcase the results of the trained agents:
+
+<div align="center"> <table> <tr> <td align="center"><b>Coinrun</b></td> <td align="center"><b>Fruitbot</b></td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/779870fe-5ca2-4000-ab4a-d1fb7af1fd39" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/c10263ce-ae24-4796-ad03-9f9605b8e553" /> </td> </tr> </table> </div>
+
+
+
+
 
 ## Installation
 To run the experiments, you need to install the required dependencies. Execute the following command to install the necessary packages:
 ```bash
 pip install -r requirements.txt
+```
+
+Once the requirements are installed, the training can be performed by running `main_notebook.ipynb`.
