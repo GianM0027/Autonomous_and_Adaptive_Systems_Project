@@ -16,7 +16,7 @@ The agents successfully learn to complete levels with high accuracy. The plots b
 <img width="1990" height="1050" alt="plots" src="https://github.com/user-attachments/assets/ca735b71-5b36-4fa6-aa54-1bc540da4c9c" />
 
 
-The videos below showcase the results of the trained agents:
+The following videos present the trained agents playing in previously unseen test environments:
 
 <div align="center"> <table> <tr> <td align="center"><b>Coinrun</b></td> <td align="center"><b>Fruitbot</b></td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/779870fe-5ca2-4000-ab4a-d1fb7af1fd39" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/c10263ce-ae24-4796-ad03-9f9605b8e553" /> </td> </tr> </table> </div>
 
